@@ -46,7 +46,7 @@ class YahtzeeMainClass:
 
 def rollDice(dice):
     for i, die in enumerate(dice):
-        die.Roll()
+        die.value = die.Roll()
         print(f"{i}: {die}")
 
 
